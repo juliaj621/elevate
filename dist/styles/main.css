@@ -6,16 +6,21 @@ a:hover{
  color: white;
 }
 
+@font-face {
+  font-family: compacta;
+  src: url(./fonts/CompactaLightBT.ttf);
+}
+
 .body{
   height: 100%;
   width: 100%;
-  font-family: 'Pacifico', cursive;
+  font-family: compacta;
   color: white;
 }
 
 .navbar {
-  background-color:#9AE9EE;
-  font-family: 'Zilla Slab', serif;
+  background-color:#1B1819;
+  font-family: compacta;
   color: white;
   display: flex;
   flex-direction: row;
@@ -35,35 +40,6 @@ a.nav-link {
   color: white
 }
 
-h1.landing-title {
-  position: absolute;
-  top: 0;
-  width:100%;
-  margin-top: 30px;
-  text-align: center;
-  font-size: 60px;
-}
-
-.landing-links {
-  position: absolute;
-  font-family: 'Zilla Slab', serif;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  top: 0;
-  margin-top: 250px;
-  width: 100%;
-  font-size: 30px;
-  right: 150px;
-}
-
-.landing-image {
-  position: relative;
-  object-fit: cover;
-  height: 1000px;
-}
-
 .logo-image {
   transition: transform .2s; /* Animation */
 }
@@ -72,28 +48,8 @@ h1.landing-title {
   transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.photography-grid {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+.landing-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
-
-li {
-  flex-grow: 1;
-}
-
-li:last-child {
-  flex-grow: 10;
-}
-
-.single-photo {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-}
-
-.rotate-90 {
-  transform: rotate(90deg);
-}
-
