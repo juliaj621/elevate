@@ -20,20 +20,12 @@ router.get("/about", (req, res) => {
   res.render("about")
 })
 
-router.get("/socialmedia", (req, res) => {
-  res.render("socialmedia");
+router.get("/archive", (req, res) => {
+  res.render("archive");
 });
 
-router.get("/github", (req, res) => {
-  res.render("github");
-});
-
-router.get("/resume", (req, res) => {
-  res.render("resume");
-});
-
-router.get("/photography", (req, res) => {
-  res.render("photography");
+router.get("/events", (req, res) => {
+  res.render("events");
 });
 
 app.use("/.netlify/functions/api",  router);
