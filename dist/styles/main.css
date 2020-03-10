@@ -24,15 +24,20 @@ a:hover{
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 30px;
 }
 
 .nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
   color: white;
 }
 
@@ -49,6 +54,7 @@ a.nav-link {
 }
 
 .landing-image {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
