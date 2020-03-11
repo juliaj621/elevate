@@ -86,8 +86,13 @@ p {
 }
 
 .icon-attrib {
-  position: fixed;
+  margin-top: 1000px;
   bottom: 0;
+  color: black;
+}
+
+.icon-attrib-text {
+  color: black;
 }
 
 .about-icons {
