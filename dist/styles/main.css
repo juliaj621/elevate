@@ -76,6 +76,17 @@ h1 {
   padding-top: 50px;
 }
 
+.icon-attrib {
+  bottom: 0;
+}
+
+.about-icons {
+  padding-top: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media screen and (max-width: 540px) {
   .landing-image {
       height: 300px;
