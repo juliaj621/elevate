@@ -76,7 +76,16 @@ h1 {
   padding-top: 50px;
 }
 
+p {
+  text-align: center;
+}
+
+img {
+  max-width: 50px;
+}
+
 .icon-attrib {
+  position: fixed;
   bottom: 0;
 }
 
